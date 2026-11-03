@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.brunonlinespace.jsts-pad</id>
+  <name>JSTS Pad</name>
+  <summary>Lightweight JavaScript-family source editor</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer id="io.github.brunonlinespace">
+    <name>Bruno Machado</name>
+  </developer>
+  <url type="homepage">https://github.com/brunonlinespace/jsts-pad</url>
+  <url type="bugtracker">https://github.com/brunonlinespace/jsts-pad/issues</url>
+  <description>
+    <p>JSTS Pad is a lightweight standalone source editor for JavaScript, TypeScript, JSX and TSX.</p>
+    <p>It focuses on editing rather than execution: language-aware highlighting, code-oriented editing, editable templates, a searchable insertion Library, conservative source checks and explicit document-type handling, without Node, npm, an embedded runtime, debugger, language server or project system.</p>
+  </description>
+  <launchable type="desktop-id">jsts-pad.desktop</launchable>
+  <provides>
+    <binary>jsts-pad</binary>
+    <mediatype>application/javascript</mediatype>
+    <mediatype>text/javascript</mediatype>
+    <mediatype>text/typescript</mediatype>
+    <mediatype>application/typescript</mediatype>
+  </provides>
+  <releases>
+    <release version="0.1.3" date="2026-11-03">
+      <description><p>Corrects the source-root public README filename and packaging contract to README.md; application behavior is unchanged from 0.1.2.</p></description>
+    </release>
+    <release version="0.1.2" date="2026-11-03">
+      <description><p>Editor EOF scrolling corrective: disable global center-on-scroll so EOF stays naturally near the bottom while explicit Go To Line centering remains.</p></description>
+    </release>
+    <release version="0.1.1" date="2026-11-03">
+      <description><p>Publication and packaging-contract release adding the locked public README at source root; editor behavior is unchanged.</p></description>
+    </release>
+    <release version="0.1.0" date="2026-09-23">
+      <description><p>Packaging-focused release adopting the canonical Suite Pythoine portable/AppImage contract and the Friendly. Fast. Focused. Pad-family slogan, with editor behavior unchanged.</p></description>
+    </release>
+    <release version="0.0.1-exp1" date="2026-08-16">
+      <description><p>Initial experimental source release with JavaScript, TypeScript, JSX and TSX profiles, Sheepy-derived code editing, Timblee-derived startup/templates/Library workflow, and no source execution.</p></description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+</component>

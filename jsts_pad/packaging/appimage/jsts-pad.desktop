@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=JSTS Pad
+GenericName=JavaScript and TypeScript Source Editor
+Comment=A lightweight source-only editor for JavaScript, TypeScript, JSX and TSX
+Exec=jsts-pad %F
+Icon=jsts-pad
+Terminal=false
+MimeType=application/javascript;text/javascript;text/typescript;application/typescript;
+Categories=Development;TextEditor;
+Keywords=JavaScript;TypeScript;JSX;TSX;ECMAScript;Editor;Source;Library;
+StartupNotify=true
+StartupWMClass=jsts-pad
+X-AppImage-Version=0.1.3

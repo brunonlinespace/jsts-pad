@@ -1,0 +1,31 @@
+{
+  "id": "jsts-pad",
+  "name": "JSTS Pad",
+  "description": "A lightweight JavaScript and TypeScript source editor.",
+  "component_kind": "editor",
+  "extensions": [
+    ".js",
+    ".mjs",
+    ".cjs",
+    ".ts",
+    ".mts",
+    ".cts",
+    ".jsx",
+    ".tsx"
+  ],
+  "portable_command": [
+    "main.py"
+  ],
+  "icon": "jsts_pad/assets/icons/jsts-pad.png",
+  "version": "0.1.3",
+  "publisher": "brunonlinespace",
+  "repository": "https://github.com/brunonlinespace/jsts-pad",
+  "desktop_id": "io.github.brunonlinespace.jsts-pad",
+  "tagline": "Friendly. Fast. Focused.",
+  "publisher_id": "brunonlinespace",
+  "capabilities": {
+    "routing": true,
+    "open": true,
+    "create": true
+  }
+}
