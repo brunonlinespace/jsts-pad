@@ -33,6 +33,11 @@ Documents remain ordinary source files on disk. JSTS Pad does not introduce a pr
 
 JSTS Pad deliberately stops at editing. It does **not** execute JavaScript or TypeScript, bundle Node or npm, run a compiler, provide a debugger or language server, perform automatic linting or structure validation, embed a terminal, or manage projects/workspaces.
 
+<p align="center">
+<img src="https://github.com/brunonlinespace/brunonlinespace/blob/cbe8f52879beac3607066c55d28c25dd3a9f5da4/suite-pythoine/screenshots-jsts-pad/screenshot-jsts-editor.png" alt="Launcher" width="400"/>
+<img src="https://github.com/brunonlinespace/brunonlinespace/blob/cbe8f52879beac3607066c55d28c25dd3a9f5da4/suite-pythoine/screenshots-jsts-pad/screenshot-jsts-launcher.png" alt="Editor" width="400"/>
+</p>
+
 ## Highlights
 
 - Dedicated **JavaScript, TypeScript, JSX and TSX** document profiles.
